@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a66b72f-30a4-4922-aba5-289116a02a4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/db/migration/V1__create-order-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/controller/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/repositories/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/service/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/db.migration/.gitkeep" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ozh5E93qJSqW0OL5ry4uUko3xf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.MenumestreApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ofeli/OneDrive/Imagens/DEV/api-crud&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ofeli\OneDrive\Imagens\DEV\menumestre\web\src\main\resources\db\migration" />
+      <recent name="C:\Users\ofeli\OneDrive\Imagens\DEV\menumestre\web\src\main\resources\db.migration" />
+      <recent name="C:\Users\ofeli\OneDrive\Imagens\DEV\menumestre\web\src\main\resources\db.migration\order" />
+      <recent name="C:\Users\ofeli\OneDrive\Imagens\DEV\menumestre\web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MenumestreApplication">
+    <configuration name="MenumestreApplication" type="Application" factoryName="Application">
+      <envs>
+        <env name="DB_URL" value="jdbc:postgresql://localhost:5432/menumestre" />
+        <env name="DB_USERNAME" value="postgres" />
+        <env name="DB_PASSWORD" value="Dev10fs2022@" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.menumestre.menumestre.MenumestreApplication" />
+      <module name="menumestre" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <envs>
+        <env name="DB_URL" value="jdbc:postgresql://localhost:5432/menumestre" />
+        <env name="DB_USERNAME" value="postgres" />
+        <env name="DB_PASSWORD" value="Dev10fs2022@" />
+      </envs>
+      <module name="menumestre" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="menumestreApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.menumestre.menumestre.MenumestreApplication" />
+      <module name="menumestre" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.menumestre.menumestre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.MenumestreApplication" />
+      <item itemvalue="Application.menumestreApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.menumestreApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a66b72f-30a4-4922-aba5-289116a02a4b" name="Changes" comment="" />
+      <created>1731878125370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731878125370</updated>
+    </task>
+    <servers />
+  </component>
+</project>
