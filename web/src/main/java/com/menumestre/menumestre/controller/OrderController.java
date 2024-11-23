@@ -19,21 +19,22 @@ public class OrderController {
     private OrderService orderService;
 
     @PostMapping("/order/create")
-    public ResponseEntity<Order> create(@RequestParam("name") String name,
-                                        @RequestParam("tableCode") int tableCode){
+    public ResponseEntity<Order> create(@RequestBody OrderRequestDTO orderRequestDTO) {
 
-        if(tableCode == 0){
+        if (orderRequestDTO.tableCode() == 0) {
             return ResponseEntity.badRequest().body(null);
         }
 
-        OrderRequestDTO orderRequestDTO = new OrderRequestDTO(name, tableCode);
         Order newOrder = this.orderService.createOrder(orderRequestDTO);
         return ResponseEntity.ok(newOrder);
     }
 
-    @GetMapping("/all")
-    public ResponseEntity<List<OrderResponseDTO>> getAllOrders(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size){
-        List<OrderResponseDTO> events = this.orderService.getAllOrders(page, size);
-        return ResponseEntity.ok(events);
+    @GetMapping("/orders")
+    public ResponseEntity<List<OrderResponseDTO>> getAllOrders(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size) {
+
+        List<OrderResponseDTO> orders = this.orderService.getAllOrders(page, size);
+        return ResponseEntity.ok(orders);
     }
 }

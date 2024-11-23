@@ -9,6 +9,6 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.UUID;
 
 public interface OrderRepository extends JpaRepository<Order, UUID> {
-    @Query("SELECT o FROM Order o")
-    Page<Order> findAllEvents(Pageable pageable);
+    @Query("SELECT o FROM Order o LEFT JOIN FETCH o.items")
+    Page<Order> findAllOrdersWithItems(Pageable pageable);
 }

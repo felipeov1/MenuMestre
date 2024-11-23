@@ -6,8 +6,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.joda.time.DateTime;
+import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.UUID;
 
 @Table(name = "orders")
@@ -17,6 +19,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Order {
+
     @Id
     @GeneratedValue
     private UUID id;
@@ -24,10 +27,15 @@ public class Order {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "tablecode")
+    @Column(name = "tableCode")
     private int tableCode;
 
-    @Column(name = "orderHour")
-    private DateTime orderHour;
+    @Column(name = "observation")
+    private String observation;
 
+    @Column(name = "orderHour", updatable = false, insertable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
+    private java.time.LocalDateTime orderHour;
+
+    @OneToMany(mappedBy = "order", fetch = FetchType.LAZY)
+    private List<OrderItem> items;
 }

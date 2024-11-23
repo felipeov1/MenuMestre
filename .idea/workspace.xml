@@ -5,20 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a66b72f-30a4-4922-aba5-289116a02a4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/db/migration/V1__create-order-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderItemRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderItemResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/product/ProductRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/db/migration/V2__create-product-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/db/migration/V3__create-order-item-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/controller/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/repositories/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/service/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/db.migration/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/domain/order/OrderResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/repositories/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/repositories/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/menumestre/menumestre/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/db/migration/V1__create-order-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/db/migration/V1__create-order-table.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +67,7 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ofeli/OneDrive/Imagens/DEV/api-crud&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ofeli/OneDrive/Imagens/DEV/menumestre&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
@@ -112,8 +118,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.MenumestreApplication" />
+      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.menumestreApplication" />
     </list>
     <recent_temporary>
